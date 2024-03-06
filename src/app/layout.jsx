@@ -51,7 +51,7 @@ function Header_site() {
       <section className=" w-full flex items-center justify-between 2xl:container  px-4 py-2 relative ">
         <section className=" w-1/4">
           <section>
-            <Image className=" w-[70px] rounded-full " src={LogoSite} width={1000} height={100}></Image>
+            <Image className=" md:w-[70px] w-[50px] rounded-full " src={LogoSite} width={1000} height={100}></Image>
           </section>
         </section>
         <nav className=" w-2/4  items-center hidden md:flex">
@@ -74,7 +74,7 @@ function Header_site() {
             <TbMenu></TbMenu>
           </span>
         </span>
-        <section ref={menu_mobile} className={` absolute w-full h-full z-20 left-0 top-0 bg-white md:hidden ${isMenuopen ?'flex':'hidden'}`}>
+        <section ref={menu_mobile} className={` absolute w-full min-h-[100vh]  z-50 left-0 top-0 bg-white md:hidden ${isMenuopen ?'flex':'hidden'}`}>
             <section className=" w-full   p-5">
               <section className=" w-full flex justify-end">
                 <IoCloseSharp onClick={closeMenu} className=" flex justify-end text-4xl "></IoCloseSharp>

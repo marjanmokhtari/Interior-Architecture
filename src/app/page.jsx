@@ -1,8 +1,9 @@
 
-import Image from "next/image";
-
+import Firstrow from "./assets/firstRow/firstrow";
 export default function Home() {
   return (
-    <section></section>
+    <section className=" w-full">
+      <Firstrow></Firstrow>
+    </section>
   )
 }

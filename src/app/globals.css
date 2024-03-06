@@ -27,3 +27,10 @@ body {
     text-wrap: balance;
   }
 }
+
+.mybg{
+  background-image: url('assets/img/firstPage.webp');
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
