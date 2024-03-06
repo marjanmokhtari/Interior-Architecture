@@ -7,9 +7,9 @@ export default function firstrow() {
                 <section className=' absolute w-full h-full bg-[#121212a4] left-0 top-0 z-20'></section>
                 <section className=' w-full 2xl:container flex flex-wrap content-center  py-5   justify-center z-30'>
                     <div className=' w-full px-10 md:w-1/2 md:px-0'>
-                        <h1 className=' text-center text-white text-3xl md:text-4xl'>Reformas Shik, Reformas integrales de Viviendas en la comunidad de Madrid</h1>
+                        <h1 className=' text-center text-white text-xl md:text-4xl'>Reformas Shik, Reformas integrales de Viviendas en la comunidad de Madrid</h1>
                     </div>
-                    <div className=' w-full flex justify-center text-2xl  *:text-center text-[#e3e3e3] py-3'>
+                    <div className=' w-full flex justify-center md:text-2xl  *:text-center text-[#e3e3e3] py-3'>
                         <h2>Te ayudamos a crear la casa de tus sueños</h2>
                     </div>
                     
