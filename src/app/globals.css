@@ -34,3 +34,9 @@ body {
   object-fit: cover;
   background-position: center;
 }
+.bg2{
+  background-image: url('assets/img/slide-2.webp');
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
