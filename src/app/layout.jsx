@@ -61,7 +61,7 @@ function Header_site() {
             <li><Link href={'/'}>blog</Link></li>
             <li><Link href={'/'}>produt</Link></li>
             <li><Link href={'/'}>produt</Link></li>
-            <li><Link href={'/'}>produt</Link></li>
+            <li><Link href={'/'}>Contact Us</Link></li>
           </ul>
         </nav>
         <section className=" md:w-1/4 w-2/4">
