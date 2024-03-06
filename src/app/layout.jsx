@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { TbMenu } from "react-icons/tb";
 import { useRef, useState } from "react";
+import { IoCloseSharp } from "react-icons/io5";
 
 
 
@@ -41,6 +42,10 @@ function Header_site() {
     setIsMenuopen(!isMenuopen)
   }
 
+  function closeMenu(){
+    setIsMenuopen(false)
+  }
+
   return (
     <header className=" w-full flex justify-center items-center">
       <section className=" w-full flex items-center justify-between 2xl:container  px-4 py-2 relative ">
@@ -70,8 +75,21 @@ function Header_site() {
           </span>
         </span>
         <section ref={menu_mobile} className={` absolute w-full h-full z-20 left-0 top-0 bg-white md:hidden ${isMenuopen ?'flex':'hidden'}`}>
-            <section className=" w-full border border-fuchsia-400 py-2">
-
+            <section className=" w-full   p-5">
+              <section className=" w-full flex justify-end">
+                <IoCloseSharp onClick={closeMenu} className=" flex justify-end text-4xl "></IoCloseSharp>
+              </section>
+              <section className=" w-full pt-10">
+                <nav className=" w-full ">
+                  <ul className=" w-full flex *:w-full flex-wrap  *:flex *:justify-center *:my-4 items-center">
+                    <li><Link href={'/'}>Home</Link></li>
+                    <li><Link href={'/'}>blog</Link></li>
+                    <li><Link href={'/'}>page</Link></li>
+                    <li><Link href={'/'}>cantact</Link></li>
+                    <li><Link href={'/'}>product</Link></li>
+                  </ul>
+                </nav>
+              </section>
             </section>
         </section>
       </section>
