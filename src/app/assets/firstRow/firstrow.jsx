@@ -9,8 +9,8 @@ export default function firstrow() {
                     <div className=' w-full px-10 md:w-1/2 md:px-0'>
                         <h1 className=' text-center text-white text-3xl md:text-4xl'>Reformas Shik, Reformas integrales de Viviendas en la comunidad de Madrid</h1>
                     </div>
-                    <div className=' w-full flex justify-center *:w-1/2 *:text-center text-white py-3'>
-                        <h2>Diseño de interiores acompañado con fotos 3D de tu hogar para elegir el estilo que te guste</h2>
+                    <div className=' w-full flex justify-center text-2xl  *:text-center text-[#e3e3e3] py-3'>
+                        <h2>Te ayudamos a crear la casa de tus sueños</h2>
                     </div>
                     
                 </section>
