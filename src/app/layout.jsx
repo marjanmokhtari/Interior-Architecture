@@ -13,17 +13,16 @@ import '../../node_modules/aos/dist/aos.css'
 import '../../node_modules/aos/dist/aos.js'
 
 
-
-
+import Logins from '../app/assets/img/Instagram_icon.png.webp'
+import Logemail from '../app/assets/img/Gmail_icon_(2020).svg.png'
+import Logtel from '../app/assets/img/tel.png'
+import LogWhats from '../app/assets/img/wtsap.png'
 
 
 Aos.init()
 const inter = Inter({ subsets: ["latin"] });
 
-//  export const metadata = {
-//   title: "Reformas shik",
-//   description: "Diseño de interiores ",
-// };
+
 
 export default function RootLayout({ children }) {
   return (
@@ -35,6 +34,7 @@ export default function RootLayout({ children }) {
         <main>
           <Header_site></Header_site>
           {children}
+          <Myfooter></Myfooter>
         </main>
       </body>
     </html>
@@ -67,7 +67,7 @@ function Header_site() {
             <li><Link href={'/'}>inicio</Link></li>
             <li><Link href={'/'}>Páginas</Link></li>
             <li><Link href={'/'}>contacto</Link></li>
-     
+
           </ul>
         </nav>
         <section className=" md:w-1/4 w-2/4">
@@ -75,19 +75,8 @@ function Header_site() {
             <span>
               PIDE PRESUPUESTO SIN COMPROMISO</span>
             <div className=" flex  items-center ">
-              <FaArrowRight 
-              
-              data-aos="fade-right"
-              data-aos-offset="200"
-              data-aos-delay="50"
-              data-aos-duration="2000"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
-              data-aos-anchor-placement="top-center"
-         
-              className=" text-2xl"></FaArrowRight>
-              <Link href={'tel:+34615951025'} 
+              <FaArrowRight
+
                 data-aos="fade-right"
                 data-aos-offset="200"
                 data-aos-delay="50"
@@ -96,7 +85,18 @@ function Header_site() {
                 data-aos-mirror="true"
                 data-aos-once="false"
                 data-aos-anchor-placement="top-center"
-              className=" ps-3 font-bold">Telf:+34 615951025</Link>
+
+                className=" text-2xl"></FaArrowRight>
+              <Link href={'tel:+34615951025'}
+                data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="2000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+                className=" ps-3 font-bold">Telf:+34 615951025</Link>
             </div>
 
           </span>
@@ -124,5 +124,73 @@ function Header_site() {
         </section>
       </section>
     </header>
+  )
+}
+
+
+function Myfooter() {
+  return (
+    <section className=" w-full py-2  bg-[#f4e2c7] flex justify-center">
+      <section className=" w-full flex flex-wrap 2xl:container ">
+        <section className=" w-full flex flex-wrap px-28 py-20">
+          <section className=" w-full lg:w-1/3 ">
+            <section className=" flex ">
+              <figure className=" w-[120px]">
+                <Image className=" w-full h-full object-cover " src={LogoSite}></Image>
+              </figure>
+            </section>
+            <section>
+              <section className=" flex text-3xl  *:me-5 *:*:w-[30px] my-3">
+                <Link href={'mailto:reformasshik@gmail.com'}>
+                  <Image src={Logemail}></Image>
+                </Link>
+                <Link href={'https://www.instagram.com/reformasshik'}>
+                  <Image src={Logins}></Image>
+                </Link>
+                <Link href={'tel:+34615951025'}>
+                  <Image src={Logtel}></Image>
+                </Link>
+                <Link href={'https://wa.me/34615951025'}>
+                  <Image src={LogWhats}></Image>
+                </Link>
+              </section>
+            </section>
+          </section>
+          <section className=" w-full lg:w-2/3 ">
+            <section className=" flex *:mx-8 ">
+             <nav>
+              <ul className=" *:my-2">
+                <li className=" font-semibold text-xl">Páginas</li>
+                <li><Link href={'/'}>Inicio</Link></li>
+                <li>Contacto</li>
+              </ul>
+             </nav>
+             <nav>
+                <ul className=" *:my-2 cursor-pointer">
+                  <li className=" font-semibold text-xl ">Páginas</li>
+                  <li><Link href={'/assets/Cocina'}>Cocina</Link></li>
+                  <li><Link href={'/assets/Dormitorio'}>Dormitorio</Link></li>
+                  <li><Link href={'/assets/Salon'}>Salón</Link></li>
+                  <li><Link href={'/assets/bathroom'}>Baño</Link></li>
+                  
+                </ul>
+             </nav>
+             <nav>
+                <ul className=" *:my-2">
+                  <li className=" font-semibold text-xl ">Páginas</li>
+                  <li><Link href={'/assets/Entrada'}>Entrada</Link></li>
+                  <li><Link href={'/assets/Oficina'}>Oficina</Link></li>
+                  <li><Link href={'/assets/Comedor'}>Comedor</Link></li>
+                           
+                </ul>
+             </nav>
+            </section>
+          </section>
+        </section>
+
+
+        <section></section>
+      </section>
+    </section>
   )
 }
