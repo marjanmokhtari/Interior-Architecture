@@ -25,15 +25,18 @@ export default function Thirdrow() {
                         <div className='flex flex-wrap justify-between md:flex-nowrap'>
                             <div className='w-full md:w-1/4 mx-4 my-4 md:h-[300px] relative'>
                                 <Link href={'../../assets/Cocina'}>
-                                    <Image  className=' object-cover h-[300px]' src={Img1} />
-                                </Link>
-                                <span className='text-white py-2 flex'>
-                                    Cocina
+                                    <Image className=' object-cover h-[300px]' src={Img1} />
+                                    <span className='text-white py-2 flex'>Cocina
                                 </span>
+                                </Link>
+                           
                             </div>
                             <div className='w-full md:w-1/4 mx-4 my-4 md:h-[300px] relative'>
-                                <Image src={Img2} className=' object-cover h-[300px]' />
-                                <span className='text-white py-2 flex'>BLACK SERIES</span>
+                                <Link href={'../../assets/Dormitorio'}>
+                                    <Image src={Img2} className=' object-cover h-[300px]' />
+                                    <span className='text-white py-2 flex'>Dormitorio</span>
+                                </Link>
+
                             </div>
                             <div className='w-full md:w-1/4 mx-4 my-4 md:h-[300px] relative'>
                                 <Image src={Img3} className=' object-cover h-[300px]' />
