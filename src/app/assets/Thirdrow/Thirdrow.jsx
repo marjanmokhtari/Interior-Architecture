@@ -2,7 +2,7 @@ import React from 'react';
 import '../../globals.css';
 import Img1 from '../img/img1.webp';
 import Img2 from '../img/img2.webp';
-import Img3 from '../img/img3.webp';
+import Img3 from '../img/salon/salon1.webp';
 import Img4 from '../img/img4.webp';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -27,9 +27,9 @@ export default function Thirdrow() {
                                 <Link href={'../../assets/Cocina'}>
                                     <Image className=' object-cover h-[300px]' src={Img1} />
                                     <span className='text-white py-2 flex'>Cocina
-                                </span>
+                                    </span>
                                 </Link>
-                           
+
                             </div>
                             <div className='w-full md:w-1/4 mx-4 my-4 md:h-[300px] relative'>
                                 <Link href={'../../assets/Dormitorio'}>
@@ -39,12 +39,16 @@ export default function Thirdrow() {
 
                             </div>
                             <div className='w-full md:w-1/4 mx-4 my-4 md:h-[300px] relative'>
-                                <Image src={Img3} className=' object-cover h-[300px]' />
-                                <span className='text-white py-2 flex'>WOODY SERIES</span>
+                                <Link href={'../../assets/Salon'}>
+                                    <Image src={Img3} className=' object-cover h-[300px]' />
+                                    <span className='text-white py-2 flex'>Salón</span>
+                                </Link>
                             </div>
                             <div className='w-full md:w-1/4 mx-4 my-4 md:h-[300px] relative'>
-                                <Image src={Img4} className=' object-cover h-[300px]' />
-                                <span className='text-white py-2 flex'>VINTAGE SERIES</span>
+                                <Link href={'../../assets/bathroom'}>
+                                    <Image src={Img4} className=' object-cover h-[300px]' />
+                                    <span className='text-white py-2 flex'>Baño</span>
+                                </Link>
                             </div>
                         </div>
                     </section>
