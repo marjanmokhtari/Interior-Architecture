@@ -87,7 +87,7 @@ function Header_site() {
               data-aos-anchor-placement="top-center"
          
               className=" text-2xl"></FaArrowRight>
-              <span 
+              <Link href={'tel:+34615951025'} 
                 data-aos="fade-right"
                 data-aos-offset="200"
                 data-aos-delay="50"
@@ -96,7 +96,7 @@ function Header_site() {
                 data-aos-mirror="true"
                 data-aos-once="false"
                 data-aos-anchor-placement="top-center"
-              className=" ps-3 font-bold">Telf:+34 615951025</span>
+              className=" ps-3 font-bold">Telf:+34 615951025</Link>
             </div>
 
           </span>
