@@ -12,8 +12,7 @@ import Cocina9 from '../img/cocina/cocina8.webp'
 import Cocina10 from '../img/cocina/cocina9.webp'
 import Cocina11 from '../img/cocina/cocina10.webp'
 import Cocina12 from '../img/cocina/cocina11.webp'
-import Cocina13 from '../img/cocina/cocina12.webp'
-// import Cocina12 from '../img/cocina/cocina1.webp'
+
 
 
 
