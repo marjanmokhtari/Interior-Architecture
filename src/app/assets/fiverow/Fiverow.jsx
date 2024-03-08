@@ -16,17 +16,17 @@ export default function Fiverow() {
                 </section>
                 <section>
                     <section className=' w-full  flex flex-wrap *:my-4 justify-evenly pt-10 px-12 lg:px-0 '>
-                        <Link href={'../../assets/Entrada'}>
+                        <Link href={'/../assets/Entrada'}>
                             <figure className=' w-full lg:w-[400px] h-[400px]'>
                                 <Image className=' w-full h-full object-cover' src={Entrada}></Image>
                             </figure>
                         </Link>
-                        <Link href={'../../assets/Oficina'}>
+                        <Link href={'/../assets/Oficina'}>
                             <figure className='  w-full lg:w-[400px] h-[400px]'>
                                 <Image className=' w-full h-full object-cover' src={Ofcin}></Image>
                             </figure>
                         </Link>
-                        <Link href={'../../assets/Comedor'}>
+                        <Link href={'/../assets/Comedor'}>
                             <figure className='  w-full lg:w-[400px] h-[400px]'>
                                 <Image className=' w-full h-full object-cover' src={Comedor}></Image>
                             </figure>
