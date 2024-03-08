@@ -5,6 +5,10 @@ import Img2 from '../img/img2.webp';
 import Img3 from '../img/img3.webp';
 import Img4 from '../img/img4.webp';
 import Image from 'next/image';
+import Link from 'next/link';
+
+
+
 
 export default function Thirdrow() {
     return (
@@ -20,9 +24,11 @@ export default function Thirdrow() {
                     <section className=' pt-10 pb-20'>
                         <div className='flex flex-wrap justify-between md:flex-nowrap'>
                             <div className='w-full md:w-1/4 mx-4 my-4 md:h-[300px] relative'>
-                                <Image className=' object-cover h-[300px]' src={Img1} />
+                                <Link href={'../../assets/Cocina'}>
+                                    <Image  className=' object-cover h-[300px]' src={Img1} />
+                                </Link>
                                 <span className='text-white py-2 flex'>
-                                    NATURAL LINE
+                                    Cocina
                                 </span>
                             </div>
                             <div className='w-full md:w-1/4 mx-4 my-4 md:h-[300px] relative'>

@@ -63,13 +63,11 @@ function Header_site() {
           </section>
         </section>
         <nav className=" w-2/4  items-center hidden md:flex">
-          <ul className=" flex justify-center items-center *:mx-2  w-full">
-            <li><Link href={'/'}>pages</Link></li>
-            <li><Link href={'/'}>home</Link></li>
-            <li><Link href={'/'}>blog</Link></li>
-            <li><Link href={'/'}>produt</Link></li>
-            <li><Link href={'/'}>produt</Link></li>
-            <li><Link href={'/'}>Contact Us</Link></li>
+          <ul className=" flex justify-center items-center *:mx-2 capitalize  w-full">
+            <li><Link href={'/'}>inicio</Link></li>
+            <li><Link href={'/'}>Páginas</Link></li>
+            <li><Link href={'/'}>contacto</Link></li>
+     
           </ul>
         </nav>
         <section className=" md:w-1/4 w-2/4">
