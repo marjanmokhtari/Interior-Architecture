@@ -25,7 +25,7 @@ export default function page() {
         <section className=' w-full py-3  flex justify-center'>
             <section className=' w-full 2xl:container  flex justify-center '>
                 <section className=' w-full flex flex-wrap *:w-full justify-center *:text-center   capitalize my-10  '>
-                    <h6 className=' md:text-4xl text-2xl flex justify-center '>Cocina</h6>
+                    <h6 className=' md:text-4xl text-2xl flex justify-center '>Cocina:</h6>
                     <div className=' *:lg:w-1/2 *:w-[90%] py-4 flex justify-center'>
                         <p>La Cocina, el corazón de tu hogar, tratamos de conectar este espacio al resto de tu casa, reflejando tu estilo individual, Con más luz natural y más sitio de almacenaje posible.</p>
                     </div>

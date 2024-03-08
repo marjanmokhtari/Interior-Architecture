@@ -26,7 +26,7 @@ export default function page() {
     <section className=' w-full py-3  flex justify-center'>
     <section className=' w-full 2xl:container  flex justify-center '>
         <section className=' w-full flex flex-wrap *:w-full justify-center *:text-center   capitalize my-10  '>
-            <h6 className=' md:text-4xl text-2xl flex justify-center '>Dormitorio</h6>
+            <h6 className=' md:text-4xl text-2xl flex justify-center '>Dormitorio:</h6>
             <div className=' *:lg:w-1/2 *:w-[90%] py-4 flex justify-center'>
                 <p>El dormitorio, el ambiente más relajante para tener un sueño reparador y quitar el cansancio del cuerpo y del alma.</p>
             </div>
