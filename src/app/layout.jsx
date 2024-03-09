@@ -168,19 +168,19 @@ function Myfooter() {
              <nav>
                 <ul className=" *:my-2 cursor-pointer">
                   <li className=" font-semibold text-xl ">Páginas</li>
-                  <li><Link href={'/assets/Cocina'}>Cocina</Link></li>
-                  <li><Link href={'/assets/Dormitorio'}>Dormitorio</Link></li>
-                  <li><Link href={'/assets/Salon'}>Salón</Link></li>
-                  <li><Link href={'/assets/bathroom'}>Baño</Link></li>
+                  <li><Link href={'/Cocina'}>Cocina</Link></li>
+                  <li><Link href={'/Dormitorio'}>Dormitorio</Link></li>
+                  <li><Link href={'/Salon'}>Salón</Link></li>
+                  <li><Link href={'/bathroom'}>Baño</Link></li>
                   
                 </ul>
              </nav>
              <nav>
                 <ul className=" *:my-2">
                   <li className=" font-semibold text-xl ">Páginas</li>
-                  <li><Link href={'/assets/Entrada'}>Entrada</Link></li>
-                  <li><Link href={'/assets/Oficina'}>Oficina</Link></li>
-                  <li><Link href={'/assets/Comedor'}>Comedor</Link></li>
+                  <li><Link href={'/Entrada'}>Entrada</Link></li>
+                  <li><Link href={'/Oficina'}>Oficina</Link></li>
+                  <li><Link href={'/Comedor'}>Comedor</Link></li>
                            
                 </ul>
              </nav>

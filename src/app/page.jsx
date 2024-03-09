@@ -4,7 +4,7 @@ import Secendrow from "./secendrow/Secendrow";
 import Thirdrow from "./Thirdrow/Thirdrow";
 import Fourthrow from "./fouthrow/Fourthrow";
 import Fiverow from "./fiverow/Fiverow";
-import Sixrow from "./assets/sixrow/Sixrow";
+import Sixrow from "./sixrow/Sixrow";
 export default function Home() {
   return (
     <section className=" w-full">
@@ -13,7 +13,7 @@ export default function Home() {
       <Thirdrow></Thirdrow>
        <Fourthrow></Fourthrow>
       <Fiverow></Fiverow>
-      {/* <Sixrow></Sixrow>  */}
+      <Sixrow></Sixrow> 
     </section>
   )
 }
