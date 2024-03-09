@@ -29,13 +29,13 @@ body {
 }
 
 .mybg{
-  background-image: url('assets/img/firstPage.webp');
+  background-image: url('img/firstPage.webp');
   background-size: cover;
   object-fit: cover;
   background-position: center;
 }
 .bg2{
-  background-image: url('assets/img/slide-2.webp');
+  background-image: url('img/slide-2.webp');
   background-size: cover;
   object-fit: cover;
   background-position: center;

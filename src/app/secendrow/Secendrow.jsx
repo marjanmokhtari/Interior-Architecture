@@ -1,11 +1,6 @@
 import React from 'react'
 import Pic1 from '../img/pic1 (1).webp'
 import Image from 'next/image'
-import { FaLocationDot } from "react-icons/fa6";
-import { BsTelephoneFill } from "react-icons/bs";
-import { IoLogoWhatsapp } from "react-icons/io";
-import { RiInstagramFill } from "react-icons/ri";
-import { MdEmail } from "react-icons/md";
 import Link from 'next/link';
 import Ins from '../img/Instagram_icon.png.webp'
 import Wtasp from '../img/wtsap.png'

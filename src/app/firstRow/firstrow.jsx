@@ -1,11 +1,8 @@
 "use client"
 import React from 'react'
-import '../../globals.css'
-import Aos from 'aos'
-import '../../../../node_modules/aos/dist/aos.css'
-import '../../../../node_modules/aos/dist/aos.js'
+import '../globals.css'
 
-Aos.init()
+
 
 export default function firstrow() {
     return (

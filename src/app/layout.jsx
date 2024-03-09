@@ -1,7 +1,7 @@
 "use client"
 import { Inter } from "next/font/google";
 import "./globals.css";
-import LogoSite from '../app/assets/img/logo.png'
+import LogoSite from './img/logo.png'
 import Image from "next/image";
 import Link from "next/link";
 import { TbMenu } from "react-icons/tb";
@@ -13,10 +13,10 @@ import '../../node_modules/aos/dist/aos.css'
 import '../../node_modules/aos/dist/aos.js'
 
 
-import Logins from '../app/assets/img/Instagram_icon.png.webp'
-import Logemail from '../app/assets/img/Gmail_icon_(2020).svg.png'
-import Logtel from '../app/assets/img/tel.png'
-import LogWhats from '../app/assets/img/wtsap.png'
+import Logins from './img/Instagram_icon.png.webp'
+import Logemail from './img/Gmail_icon_(2020).svg.png'
+import Logtel from './img/tel.png'
+import LogWhats from './img/wtsap.png'
 
 
 Aos.init()
