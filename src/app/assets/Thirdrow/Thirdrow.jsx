@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import '../../globals.css';
 import Img1 from '../img/img1.webp';
@@ -7,10 +8,16 @@ import Img4 from '../img/img4.webp';
 import Image from 'next/image';
 import Link from 'next/link';
 
-
+import { useRouter } from 'next/navigation'
 
 
 export default function Thirdrow() {
+    const router=useRouter()
+
+    function getpage(){
+        router.push('assets/Cocina')
+        
+    }
     return (
         <section className='w-full'>
             <section className='w-full bg2 relative flex justify-center'>
@@ -24,28 +31,28 @@ export default function Thirdrow() {
                     <section className=' pt-10 pb-20'>
                         <div className='flex flex-wrap justify-between md:flex-nowrap'>
                             <div className='w-full md:w-1/4 mx-4 my-4 md:h-[300px] relative'>
-                                <Link href={'/assets/Cocina'}>
-                                    <Image className=' object-cover h-[300px]' src={Img1} />
+                                {/* <Link href={'assets/Cocina'}> */}
+                                    <Image onClick={getpage} className=' object-cover h-[300px]' src={Img1} />
                                     <span className='text-white py-2 flex'>Cocina
                                     </span>
-                                </Link>
+                                {/* </Link> */}
 
                             </div>
                             <div className='w-full md:w-1/4 mx-4 my-4 md:h-[300px] relative'>
-                                <Link href={'/assets/Dormitorio'}>
+                                <Link href={'assets/Dormitorio'}>
                                     <Image src={Img2} className=' object-cover h-[300px]' />
                                     <span className='text-white py-2 flex'>Dormitorio</span>
                                 </Link>
 
                             </div>
                             <div className='w-full md:w-1/4 mx-4 my-4 md:h-[300px] relative'>
-                                <Link href={'/assets/Salon'}>
+                                <Link href={'assets/Salon'}>
                                     <Image src={Img3} className=' object-cover h-[300px]' />
                                     <span className='text-white py-2 flex'>Salón</span>
                                 </Link>
                             </div>
                             <div className='w-full md:w-1/4 mx-4 my-4 md:h-[300px] relative'>
-                                <Link href={'/assets/bathroom'}>
+                                <Link href={'assets/bathroom'}>
                                     <Image src={Img4} className=' object-cover h-[300px]' />
                                     <span className='text-white py-2 flex'>Baño</span>
                                 </Link>
